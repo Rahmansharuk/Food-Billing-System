@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic SEO Meta Tags -->
   <meta charset="UTF-8">
-  <meta name="viewport" content="https://cdn-icons-png.flaticon.com/512/2771/2771406.png">
-  <meta name="description" content="Responsive food billing system project with meal selection, add-ons, and order summary. Perfect for beginners learning HTML, CSS, and JavaScript.">
-  <meta name="keywords" content="Food Billing System, Online Food Ordering, Food Order Form Project, HTML CSS JavaScript Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food Billing System project with meal selection, add-ons, and order summary. Learn HTML, CSS, and JavaScript through this responsive beginner-friendly project.">
+  <meta name="keywords" content="Food Billing System, Online Food Order, Billing App, HTML CSS JS Project, Food Delivery, Responsive Website">
+  <meta name="author" content="Rahman Sharuk">
+
+  <!-- Open Graph (for social media like Facebook, LinkedIn) -->
+  <meta property="og:title" content="Food Billing System | Online Food Ordering">
+  <meta property="og:description" content="Responsive food billing system project with meals, add-ons, and order summary built using HTML, CSS, and JavaScript.">
+  <meta property="og:image" content="https://yourwebsite.com/assets/food.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card (for Twitter sharing) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Food Billing System | Online Food Ordering">
+  <meta name="twitter:description" content="Learn food billing project using HTML, CSS, and JS with meal options and order summary.">
+  <meta name="twitter:image" content="https://yourwebsite.com/assets/burger.jpg">
+
+  <!-- Favicon -->
   <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzneD9VMRfIAWL04BWdDWvBAPmfcyqPj5Ivw&s">
-  <title>Food Order Form</title>
+
+  <!-- Title -->
+  <title>Food Billing System | Online Food Ordering</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -151,30 +170,30 @@
 <body>
   <div class="container">
     <div id="orderForm">
-      <h1>Food Billing System</h1>
+      <h1>🍔 Food Billing System</h1>
 
-      <label>Customer Name</label>
+      <label for="txtName">Customer Name</label>
       <input type="text" id="txtName" placeholder="Enter your name">
 
-      <label>Mobile</label>
+      <label for="txtMobile">Mobile</label>
       <input type="text" id="txtMobile" placeholder="Enter mobile number">
 
-      <h3>Select a Meal</h3>
+      <h2>Select a Meal</h2>
       <div class="meal-options">
         <div class="card">
-          <img src="./assets/burger.jpg" alt="Meal Image">
+          <img src="./assets/burger.jpg" alt="Delicious Burger Meal">
           <p><input type="radio" name="meal" id="optBurger" value="Burger"> Burger (₹120)</p>
         </div>
         <div class="card">
-          <img src="./assets/food.jpg" alt="Burger Image">
+          <img src="./assets/food.jpg" alt="Tasty Roller Meal">
           <p><input type="radio" name="meal" id="optRoller" value="Roller"> Roller (₹100)</p>
         </div>
       </div>
 
-      <h3>Select Add-ons</h3>
+      <h2>Select Add-ons</h2>
       <div class="addons">
         <div class="card">
-          <img src="./assets/meal.jpg" alt="Fries Image">
+          <img src="./assets/meal.jpg" alt="Crispy Large Fries">
           <p><input type="checkbox" id="optFries" value="Large Fries"> Large Fries (₹70)</p>
         </div>
       </div>
